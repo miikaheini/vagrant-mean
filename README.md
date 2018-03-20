@@ -32,7 +32,7 @@ Configure the folder that you want to sync with your virtual machine in `install
 config.vm.synced_folder "/Users/<username>/projects", "/projects"
 ```
 
-Start the virtual machine and login via SSH
+Start the virtual machine and login via SSH:
 ```
 vagrant up
 vagrant ssh
